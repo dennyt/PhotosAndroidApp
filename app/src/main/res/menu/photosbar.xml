@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Add Photo", allows users to add photos-->
+    <item
+        android:id="@+id/searchbytag"
+        android:icon="@drawable/searchicon"
+        android:title="search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addphoto"
+        android:icon="@drawable/plussign"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
+</menu>

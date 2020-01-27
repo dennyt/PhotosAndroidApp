@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/addtagllabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:editable="false"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:text="Add Location Tag" />
+
+    <EditText
+        android:id="@+id/addtagl_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true" />
+
+    <Button
+        android:id="@+id/addtagl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/canceladdtagl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="@string/cancel" />
+
+</LinearLayout>
